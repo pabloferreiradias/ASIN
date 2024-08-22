@@ -186,6 +186,60 @@ class PistaSeeder extends Seeder
                 'descricao' => 'Uma bilbioteca muito bonita',
                 'cidade_id' => $am->id,
             ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer o Memorial Coluna Prestes, projeto do renomado arquiteto Oscar Niemeyer.',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $to->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a Praça dos Girassóis, que é a maior praça da América Latina.',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $to->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado aonde Lita Maria pertence a Academia de Letras.',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $to->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a única capital que faz fronteira com outro país, no caso a Bolívia.',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $ro->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer uma cidade que tem dois feriados de aniversário, pois sua fundação aconteceu em outubro, mas a celebração de abertura foi realizada somente em janeiro do ano seguinte.',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $ro->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado natal de Augusto Branco',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $ro->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer o Mercado Velho, construído há mais de 90 anos e o Museu da Borracha',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $ac->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade que é conhecida também como “Cidade Verde”, porque abriga diversos parques relacionados à floresta amazônica.',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $ac->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado natal de Joaquim Nogueira.',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $ac->id,
+            ],
         ];
 
         DB::table('pistas')->insert($pistasArray);
