@@ -132,6 +132,24 @@ class PistaSeeder extends Seeder
                 'descricao' => 'Uma bilbioteca muito bonita',
                 'cidade_id' => $pa->id,
             ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a única capital brasileira situada acima da linha do Equador,',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $rr->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade que foi parar no Guinness Book depois de fazer a maior paçoca do mundo em 2018',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $rr->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado natal de Lindanor Celina.',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $rr->id,
+            ],
         ];
 
         DB::table('pistas')->insert($pistasArray);
