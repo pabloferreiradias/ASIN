@@ -53,7 +53,122 @@ O roubo gerou grande comoção na comunidade cultural baiana, preocupada com o d
 As autoridades estão mobilizadas para recuperar o instrumento e garantir a segurança do acervo do centro cultural. Enquanto isso, a população e a comunidade artística aguardam por mais informações e pela rápida solução do caso.',
                 'nome' => 'Salvador',
                 'estado' => 'BA',
-            ]
+            ],
+            [
+                'descricao' => 'O Rio Branco é a capital do estado do Acre, localizado na região Norte do Brasil. É uma cidade cercada por florestas tropicais, com uma rica história ligada à exploração da borracha. Rio Branco é conhecida por seu clima quente e úmido e possui uma cultura influenciada por tradições indígenas e nordestinas.',
+                'nome' => 'Rio Branco',
+                'estado' => 'AC',
+            ],
+            [
+                'descricao' => 'Maceió é a capital do estado de Alagoas, conhecida por suas praias de areia branca, águas cristalinas e piscinas naturais. A cidade é um destino turístico popular, oferecendo uma mistura de belezas naturais, cultura rica e gastronomia à base de frutos do mar.',
+                'nome' => 'Maceió',
+                'estado' => 'AL',
+            ],
+            [
+                'descricao' => 'Macapá, capital do estado do Amapá, é conhecida por ser cortada pela linha do Equador, que divide a cidade entre os hemisférios norte e sul. A cidade possui um forte histórico, sendo o Forte São José de Macapá uma de suas principais atrações turísticas.',
+                'nome' => 'Macapá',
+                'estado' => 'AP',
+            ],
+            [
+                'descricao' => 'Manaus é a capital do Amazonas, localizada no coração da Floresta Amazônica. A cidade é famosa pelo Teatro Amazonas, uma majestosa casa de ópera construída durante o ciclo da borracha, e por ser a porta de entrada para explorar a biodiversidade da floresta tropical.',
+                'nome' => 'Manaus',
+                'estado' => 'AM',
+            ],
+            [
+                'descricao' => 'Fortaleza, capital do Ceará, é um importante destino turístico no Brasil, conhecida por suas praias de águas mornas, como a Praia do Futuro, e sua animada vida noturna. A cidade também é famosa por sua culinária baseada em frutos do mar e pela hospitalidade de seu povo.',
+                'nome' => 'Fortaleza',
+                'estado' => 'CE',
+            ],
+            [
+                'descricao' => 'Brasília, a capital do Brasil, é uma cidade planejada que foi inaugurada em 1960. Conhecida por sua arquitetura moderna e arrojada, projetada por Oscar Niemeyer, e por ser o centro político do país, Brasília é um marco do urbanismo mundial.',
+                'nome' => 'Brasília',
+                'estado' => 'DF',
+            ],
+            [
+                'descricao' => 'Vitória, a capital do Espírito Santo, é uma cidade insular com belas praias e uma rica história cultural. A cidade é conhecida por sua qualidade de vida, com um cenário de montanhas e o mar que proporcionam uma combinação perfeita entre a vida urbana e a natureza.',
+                'nome' => 'Vitória',
+                'estado' => 'ES',
+            ],
+            [
+                'descricao' => 'Goiânia, capital do estado de Goiás, é uma cidade conhecida por seu urbanismo planejado e áreas verdes. Goiânia é um importante centro econômico e cultural da região Centro-Oeste, com destaque para suas atividades agroindustriais e vida noturna vibrante.',
+                'nome' => 'Goiânia',
+                'estado' => 'GO',
+            ],
+            [
+                'descricao' => 'São Luís, a capital do Maranhão, é conhecida por seu centro histórico, que é Patrimônio Mundial da UNESCO. A cidade tem uma arquitetura colonial portuguesa e é famosa por seu Bumba Meu Boi, uma festa tradicional que mistura elementos indígenas, africanos e europeus.',
+                'nome' => 'São Luís',
+                'estado' => 'MA',
+            ],
+            [
+                'descricao' => 'Cuiabá é a capital do estado de Mato Grosso, localizada próxima ao Pantanal, uma das maiores áreas úmidas do mundo. A cidade é conhecida por seu clima quente, sua culinária regional e por ser um ponto de partida para aventuras ecológicas.',
+                'nome' => 'Cuiabá',
+                'estado' => 'MT',
+            ],
+            [
+                'descricao' => 'Campo Grande, a capital do Mato Grosso do Sul, é conhecida como a "Cidade Morena" devido ao tom avermelhado de seu solo. A cidade é um importante ponto de acesso ao Pantanal e é conhecida por sua hospitalidade e qualidade de vida.',
+                'nome' => 'Campo Grande',
+                'estado' => 'MS',
+            ],
+            [
+                'descricao' => 'Belém, a capital do Pará, é conhecida como a "Cidade das Mangueiras" devido à abundância dessas árvores em suas ruas. A cidade tem uma rica herança cultural e histórica, com destaque para o Círio de Nazaré, uma das maiores procissões religiosas do Brasil.',
+                'nome' => 'Belém',
+                'estado' => 'PA',
+            ],
+            [
+                'descricao' => 'João Pessoa, a capital da Paraíba, é conhecida por suas praias tranquilas e pelo fato de ser o ponto mais oriental das Américas, onde o sol nasce primeiro. A cidade possui uma mistura de história colonial e modernidade, com destaque para seu centro histórico bem preservado.',
+                'nome' => 'João Pessoa',
+                'estado' => 'PB',
+            ],
+            [
+                'descricao' => 'Curitiba, a capital do Paraná, é conhecida por seu planejamento urbano, áreas verdes e qualidade de vida. A cidade é um exemplo de sustentabilidade e inovação no Brasil, com destaque para seu eficiente sistema de transporte público.',
+                'nome' => 'Curitiba',
+                'estado' => 'PR',
+            ],
+            [
+                'descricao' => 'Teresina, a capital do Piauí, é uma cidade localizada no interior do estado e é conhecida por seu clima quente. Teresina é cercada por rios e é famosa por sua hospitalidade e tranquilidade, sendo um importante centro comercial e econômico da região.',
+                'nome' => 'Teresina',
+                'estado' => 'PI',
+            ],
+            [
+                'descricao' => 'Natal, a capital do Rio Grande do Norte, é conhecida por suas dunas e praias de águas claras. A cidade é um destino turístico popular, famosa pelo Forte dos Reis Magos, e oferece um clima ensolarado durante a maior parte do ano.',
+                'nome' => 'Natal',
+                'estado' => 'RN',
+            ],
+            [
+                'descricao' => 'Porto Alegre, a capital do Rio Grande do Sul, é conhecida por sua rica herança cultural e sua forte identidade gaúcha. A cidade é um importante centro cultural e econômico, com destaque para seus parques urbanos e vida cultural vibrante.',
+                'nome' => 'Porto Alegre',
+                'estado' => 'RS',
+            ],
+            [
+                'descricao' => 'Porto Velho, capital de Rondônia, é uma cidade com uma história ligada à construção da Estrada de Ferro Madeira-Mamoré. Localizada às margens do Rio Madeira, Porto Velho é um importante centro de transporte e comércio na região Norte do Brasil.',
+                'nome' => 'Porto Velho',
+                'estado' => 'RO',
+            ],
+            [
+                'descricao' => 'Boa Vista, a capital de Roraima, é a única capital brasileira localizada totalmente ao norte da linha do Equador. A cidade é conhecida por seu planejamento urbano, clima quente e sua proximidade com o Monte Roraima, uma das mais antigas formações geológicas do planeta.',
+                'nome' => 'Boa Vista',
+                'estado' => 'RR',
+            ],
+            [
+                'descricao' => 'Florianópolis, a capital de Santa Catarina, é conhecida por suas belas praias, ilhas e natureza exuberante. A cidade é um dos destinos turísticos mais populares do Brasil e é famosa por sua qualidade de vida, cultura açoriana e gastronomia à base de frutos do mar.',
+                'nome' => 'Florianópolis',
+                'estado' => 'SC',
+            ],
+            [
+                'descricao' => 'São Paulo, a capital do estado de São Paulo, é a maior cidade do Brasil e um dos principais centros financeiros e culturais da América Latina. A cidade é conhecida por sua diversidade cultural, gastronomia, vida noturna intensa e uma arquitetura que mistura o moderno com o histórico.',
+                'nome' => 'São Paulo',
+                'estado' => 'SP',
+            ],
+            [
+                'descricao' => 'Aracaju, a capital de Sergipe, é conhecida por suas praias tranquilas e pela qualidade de vida que oferece. A cidade é acolhedora, com uma atmosfera de interior, e conta com belas paisagens naturais e uma rica culinária regional.',
+                'nome' => 'Aracaju',
+                'estado' => 'SE',
+            ],
+            [
+                'descricao' => 'Palmas, a capital do Tocantins, é a mais jovem capital do Brasil, fundada em 1989. A cidade é planejada e conhecida por suas avenidas largas, áreas verdes e o lago que proporciona uma bela paisagem natural e oportunidades para atividades ao ar livre.',
+                'nome' => 'Palmas',
+                'estado' => 'TO',
+            ],
         ];
 
         DB::table('cidades')->insert($cidadesArray);

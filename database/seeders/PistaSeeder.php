@@ -13,10 +13,33 @@ class PistaSeeder extends Seeder
      */
     public function run(): void
     {
-        $rj = DB::table('cidades')->where('estado', 'RJ')->first();
-        $mg = DB::table('cidades')->where('estado', 'MG')->first();
-        $pe = DB::table('cidades')->where('estado', 'PE')->first();
+        $ac = DB::table('cidades')->where('estado', 'AC')->first();
+        $al = DB::table('cidades')->where('estado', 'AL')->first();
+        $ap = DB::table('cidades')->where('estado', 'AP')->first();
+        $am = DB::table('cidades')->where('estado', 'AM')->first();
         $ba = DB::table('cidades')->where('estado', 'BA')->first();
+        $ce = DB::table('cidades')->where('estado', 'CE')->first();
+        $df = DB::table('cidades')->where('estado', 'DF')->first();
+        $es = DB::table('cidades')->where('estado', 'ES')->first();
+        $go = DB::table('cidades')->where('estado', 'GO')->first();
+        $ma = DB::table('cidades')->where('estado', 'MA')->first();
+        $mt = DB::table('cidades')->where('estado', 'MT')->first();
+        $ms = DB::table('cidades')->where('estado', 'MS')->first();
+        $mg = DB::table('cidades')->where('estado', 'MG')->first();
+        $pa = DB::table('cidades')->where('estado', 'PA')->first();
+        $pb = DB::table('cidades')->where('estado', 'PB')->first();
+        $pr = DB::table('cidades')->where('estado', 'PR')->first();
+        $pe = DB::table('cidades')->where('estado', 'PE')->first();
+        $pi = DB::table('cidades')->where('estado', 'PI')->first();
+        $rj = DB::table('cidades')->where('estado', 'RJ')->first();
+        $rn = DB::table('cidades')->where('estado', 'RN')->first();
+        $rs = DB::table('cidades')->where('estado', 'RS')->first();
+        $ro = DB::table('cidades')->where('estado', 'RO')->first();
+        $rr = DB::table('cidades')->where('estado', 'RR')->first();
+        $sc = DB::table('cidades')->where('estado', 'SC')->first();
+        $sp = DB::table('cidades')->where('estado', 'SP')->first();
+        $se = DB::table('cidades')->where('estado', 'SE')->first();
+        $to = DB::table('cidades')->where('estado', 'TO')->first();
 
         $pistasArray = [
             [
@@ -90,6 +113,24 @@ class PistaSeeder extends Seeder
                 'local' => 'Bilbioteca',
                 'descricao' => 'Uma bilbioteca muito bonita',
                 'cidade_id' => $rj->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade com mais de 400 anos, que tem o cinema mais antigo em funcionamento',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $pa->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade que tem a maior procissão católica do mundo: o Círio de Nazaré.',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $pa->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado natal de Lindanor Celina.',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $pa->id,
             ],
         ];
 
