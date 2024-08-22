@@ -150,6 +150,42 @@ class PistaSeeder extends Seeder
                 'descricao' => 'Uma bilbioteca muito bonita',
                 'cidade_id' => $rr->id,
             ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade que fica bem na linha do Equador.Lá os habitantes conseguem ver dois equinócios por ano: o de outono e o de primavera.',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $ap->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade que tem o Estádio Zerão. Que fica acima da linha do Equador, fazendo com que parte do campo esteja no hemisfério sul e a outra metade no hemisfério norte.',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $ap->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado natal de Alcy Araújo.',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $ap->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer a cidade que teve a primeira universidade do Brasil em 1909.',
+                'local' => 'Hotel',
+                'descricao' => 'Um hotel muito bonito',
+                'cidade_id' => $am->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que queria conhecer o maior estado do Brasil.',
+                'local' => 'Praça',
+                'descricao' => 'Uma praça muito bonita',
+                'cidade_id' => $am->id,
+            ],
+            [
+                'pista' => 'Eu vi a pessoa suspeita! Ela disse que estava ansiosa para conhecer o estado natal de Milton Hatoum',
+                'local' => 'Bilbioteca',
+                'descricao' => 'Uma bilbioteca muito bonita',
+                'cidade_id' => $am->id,
+            ],
         ];
 
         DB::table('pistas')->insert($pistasArray);
