@@ -11,6 +11,15 @@ class Pista extends Model
 {
     use HasFactory;
 
+    /**
+     * The Imagem da Pista gerada aleatoriamente.
+     *
+     * @var string
+     */
+    protected $imagem_personagem = '';
+
+    protected $fillable = ['imagem_personagem'];
+
     public function cidade(): BelongsTo
     {
         return $this->belongsTo(Cidade::class);
